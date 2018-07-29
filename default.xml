@@ -3,40 +3,36 @@
 
   <default sync-j="4" revision="master"/>
 
-  <remote  fetch="git://github.com/noeldiviney"              name="Odissey1_lib"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="TDust_UDB_lib"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="USBAudio_lib"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="ND_P5LP_Component_lib"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="ND_P5LP_Sch_Macro_lib"/>
-  <!--
-  <remote  fetch="git://github.com/noeldiviney"              name="ND_P5LP_Arduino_lib"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="ND_P5LP_Arduino_Sch_Macro_lib"/>
-  -->  
-  <remote  fetch="git://github.com/noeldiviney"              name="P5LP_TinyPrintf"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="P5LP_CharLCD_I2C"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="P5LP_AudioClkGen"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="P5LP_USB_Audio_CS4272"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="P5LP_Debug"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="P5LP_USB_Audio_Async"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="P5LP_USB_Audio"/>
+  <!--    Libraries    -->
+  <remote  fetch="git://github.com/tndP5LP"    name="Odissey1_lib"/>
+  <remote  fetch="git://github.com/tndP5LP"    name="TDust_UDB_lib"/>
+  <remote  fetch="git://github.com/tndP5LP"    name="USBAudio_lib"/>
+  <remote  fetch="git://github.com/tndP5LP"    name="tndComponent_lib"/>
+  <remote  fetch="git://github.com/tndP5LP"    name="tndSch_Macro_lib"/>
+  <!--    Projects    -->
+  <remote  fetch="git://github.com/tndP5LP"    name="TinyPrintf_prj"/>
+  <remote  fetch="git://github.com/tndP5LP"    name="CharLCD_I2C_prj"/>
+  <remote  fetch="git://github.com/tndP5LP"    name="AudioClkGen_prj"/>
+  <remote  fetch="git://github.com/tndP5LP"    name="USB_Audio_CS4272_prj"/>
+  <remote  fetch="git://github.com/tndP5LP"    name="Debug_prj"/>
+  <remote  fetch="git://github.com/tndP5LP"    name="USB_Audio_Async_prj"/>
+  <remote  fetch="git://github.com/tndP5LP"    name="USB_Audio_prj"/>
   <!--
   -->
-  <project remote="Odissey1_lib"                   revision="master"   name="Odissey1_lib"           path="ComponentsDev/Odissey1_lib"/>
-  <project remote="TDust_UDB_lib"                  revision="master"   name="TDust_UDB_lib"          path="ComponentsDev/TDust_UDB_lib"/>
-  <project remote="USBAudio_lib"                   revision="master"   name="USBAudio_lib"           path="ComponentsDev/USBAudio_lib"/>
-  <project remote="ND_P5LP_Component_lib"          revision="master"   name="ND_P5LP_Component_lib"  path="ComponentsDev/ND_P5LP_Component_lib"/>
-  <project remote="ND_P5LP_Sch_Macro_lib"          revision="master"   name="ND_P5LP_Sch_MACRO_lib"  path="ComponentsDev/ND_P5LP_Sch_Macro_lib"/>
+  <project remote="Odissey1_lib"               revision="master"   name="Odissey1_lib"          path="Library/Odissey1_lib"/>
+  <project remote="TDust_UDB_lib"              revision="master"   name="TDust_UDB_lib"         path="Library/TDust_UDB_lib"/>
+  <project remote="USBAudio_lib"               revision="master"   name="USBAudio_lib"          path="Library/USBAudio_lib"/>
+  <project remote="tndComponent_lib"           revision="master"   name="tndComponent_lib"      path="Library/tndComponent_lib"/>
+  <project remote="tndSch_Macro_lib"           revision="master"   name="tndSch_MACRO_lib"      path="Library/tndSch_Macro_lib"/>
   <!--
-  <project remote="ND_P5LP_Arduino_lib"            revision="master"   name="ND_P5LP_Arduino_lib"    path="ComponentsDev/ND_P5LP_Arduino_lib"/>
-  <project remote="ND_P5LP_Arduino_Sch_Macro_lib"  revision="master"   name="ND_P5LP_Sch_MACRO_lib"  path="ComponentsDev/ND_P5LP_Arduino_Sch_Macro_lib"/>
    -->
-  <project remote="P5LP_TinyPrintf"                revision="master"   name="P5LP_TinyPrintf"        path="ComponentsTest/P5LP_TinyPrintf"/>
-  <project remote="P5LP_CharLCD_I2C"               revision="master"   name="P5LP_CharLCD_I2C"       path="ComponentsTest/P5LP_CharLCD_I2C"/>
-  <project remote="P5LP_AudioClkGen"               revision="master"   name="P5LP_AudioClkGen"       path="ComponentsTest/P5LP_AudioClkGen"/>
-  <project remote="P5LP_USB_Audio_CS4272"          revision="master"   name="P5LP_USB_Audio_CS4272"  path="ComponentsTest/P5LP_USB_Audio_CS4272"/>
-  <project remote="P5LP_Debug"                     revision="master"   name="P5LP_Debug"             path="ComponentsTest/P5LP_Debug"/>
-  <project remote="P5LP_USB_Audio_Async"           revision="master"   name="P5LP_USB_Audio_Async"   path="ComponentsTest/P5LP_USB_Audio_Async"/>
-  <project remote="P5LP_USB_Audio"                 revision="master"   name="P5LP_USB_Audio"         path="ComponentsTest/P5LP_USB_Audio"/>
+  <project remote="TinyPrintf_prj"             revision="master"   name="TinyPrintf_prj"        path="Project/P5LP_TinyPrintf"/>
+  <project remote="CharLCD_I2C_prj"            revision="master"   name="CharLCD_I2C_prj"       path="Project/P5LP_CharLCD_I2C"/>
+  <project remote="AudioClkGen_prj"            revision="master"   name="AudioClkGen_prj"       path="Project/P5LP_AudioClkGen"/>
+  <project remote="USB_Audio_CS4272_prj"       revision="master"   name="USB_Audio_CS4272_prj"  path="Project/P5LP_USB_Audio_CS4272"/>
+  <project remote="Debug_prj"                  revision="master"   name="Debug_prj"             path="Project/P5LP_Debug"/>
+  <project remote="USB_Audio_Async_prj"        revision="master"   name="USB_Audio_Async_prj"   path="Project/P5LP_USB_Audio_Async"/>
+  <project remote="USB_Audio_prj"              revision="master"   name="USB_Audio_prj"         path="Project/P5LP_USB_Audio"/>
   <!--
   -->
 
