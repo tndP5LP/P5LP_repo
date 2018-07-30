@@ -11,15 +11,15 @@ https://code.google.com/archive/p/git-repo/[here].
 * The *PSoC_5LP Component Library* + 
  repositories catered for are as follows +
 
- https://github.com/noeldiviney/ND_PSoC_Comp_lib 
+ https://github.com/tndP5LP/tndComponent_lib 
 
- https://github.com/noeldiviney/ND_P5LP_Sch_Macro_lib
+ https://github.com/tndP5LP/tndSch_Macro_lib
 
- https://github.com/noeldiviney/ND_P5LP_Arduino_lib
+ https://github.com/tndP5LP/USBAudio_lib
 
- https://github.com/noeldiviney/Odissey1_lib
+ https://github.com/tndP5LP/Odissey1_lib
 
- https://github.com/noeldiviney/TDust_UDB_lib  
+ https://github.com/tndP5LP/TDust_UDB_lib  
 
 * Credits go to the following contributers who's work I have borrowed on +
  to create the Library. They have also been a great inspiration in getting +
@@ -57,8 +57,8 @@ PATH
 # Create the PSoC_5LP directory
 
 ....
-$: mkdir -p ~/projects/P5LP
-$: cd projects/P5LP
+$: mkdir -p ~/projects/tndP5LP
+$: cd projects/tndP5LP
 ....
 
 # Configure git with your real name and email address.
@@ -71,7 +71,7 @@ $: git config --global user.email "you@example.com"
 # Initialise the repositories for PSoC_5LP Components
 
 ....
-$: repo init -u https://github.com/noeldiviney/P5LP_Development_repo
+$: repo init -u https://github.com/tndP5LP/P5LP_repo
 ....
 
 # Download the PSoC_5LP Component Libraries
@@ -95,10 +95,10 @@ image::images/ComponentLibs.gif[Component Libs]
 
 image::images/OptionsDialog.gif[Options Dialog]
 
-* Ensure that "Projects Location" shows ~\projects\P5LP\ComponentsTest"
+* Ensure that "Projects Location" shows ~\projects\tndP5LP\ComponentsTest"
 * Now select "Project Management->Default Dependencies"
-* Navigate to "~\projects\P5LP\ComponentsDev"
-* Use the "New Entry" button to find and "open" each Libratiy's .cyprj file
+* Navigate to "~\projects\tndP5LP\Library"
+* Use the "New Entry" button to find and "open" each Library's .cyprj file
 
 ## When finished the "Project Management->Default Dependencies" dialog should look like the following
 
@@ -110,7 +110,7 @@ image::images/DefaultDependencies.gif[Default Dependencies]
 
 * Use "File->New->Project" to launch the "Create Project" dialog
 * Select "Target device"
-* Select "PSoC 5LP" and "CY8C5888LTQ-LP097"   and  "next" btn
+* Select "PSoC 5LP" and "CY8C5888AXQ-LP096"   and  "next" btn
 * Select "Empty Schematic" and "next" btn
 * Select "Finish" btn to launch the new project
 * In "Project Explorer" Window double click on the "TopDesign.cysch"
@@ -120,7 +120,7 @@ image::images/DefaultDependencies.gif[Default Dependencies]
 
 image::images/CDC_Catalog.gif[Component Catalog]
 
-# Editing the Components in ~projects/P5LP/ComponentsDev
+# Editing the Components in ~projects/tndP5LP/Library
 
 After using "Repo sync" to fetch all the librarys
 "Git status" shows that they are detached which means they are unsuitable for git add, git commit etc
@@ -129,7 +129,7 @@ To get around this it is necessary to use the following  Git commands.
 ....
 $: git checkout master   or whatever branch one wishes to use
 $: git commit -a
-$: git push https://github.com/noeldiviney/CharLCD_I2C_Test.git  (in my case)
+$: git push https://github.com/tndP5LP/CharLCD_I2C_Test.git  (in my case)
 ....
 
 # TODO this is a "Work in progress"
