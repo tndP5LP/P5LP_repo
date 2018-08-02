@@ -26,13 +26,13 @@
   <project remote="tndSch_Macro_lib"           revision="master"   name="tndSch_MACRO_lib"      path="Library/tndSch_Macro_lib"/>
   <!--
    -->
-  <project remote="TinyPrintf_prj"             revision="master"   name="TinyPrintf_prj"        path="Project/P5LP_TinyPrintf"/>
-  <project remote="CharLCD_I2C_prj"            revision="master"   name="CharLCD_I2C_prj"       path="Project/P5LP_CharLCD_I2C"/>
-  <project remote="AudioClkGen_prj"            revision="master"   name="AudioClkGen_prj"       path="Project/P5LP_AudioClkGen"/>
-  <project remote="USB_Audio_CS4272_prj"       revision="master"   name="USB_Audio_CS4272_prj"  path="Project/P5LP_USB_Audio_CS4272"/>
-  <project remote="Debug_prj"                  revision="master"   name="Debug_prj"             path="Project/P5LP_Debug"/>
-  <project remote="USB_Audio_Async_prj"        revision="master"   name="USB_Audio_Async_prj"   path="Project/P5LP_USB_Audio_Async"/>
-  <project remote="USB_Audio_prj"              revision="master"   name="USB_Audio_prj"         path="Project/P5LP_USB_Audio"/>
+  <project remote="TinyPrintf_prj"             revision="master"   name="TinyPrintf_prj"        path="Project/TinyPrintf"/>
+  <project remote="CharLCD_I2C_prj"            revision="master"   name="CharLCD_I2C_prj"       path="Project/CharLCD_I2C"/>
+  <project remote="AudioClkGen_prj"            revision="master"   name="AudioClkGen_prj"       path="Project/AudioClkGen"/>
+  <project remote="USB_Audio_CS4272_prj"       revision="master"   name="USB_Audio_CS4272_prj"  path="Project/USB_Audio_CS4272"/>
+  <project remote="Debug_prj"                  revision="master"   name="Debug_prj"             path="Project/Debug"/>
+  <project remote="USB_Audio_Async_prj"        revision="master"   name="USB_Audio_Async_prj"   path="Project/USB_Audio_Async"/>
+  <project remote="USB_Audio_prj"              revision="master"   name="USB_Audio_prj"         path="Project/USB_Audio"/>
   <!--
   -->
 
