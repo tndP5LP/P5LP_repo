@@ -19,27 +19,27 @@
   <remote  fetch="git://github.com/tndP5LP"    name="USB_Audio_prj"/>
   <!--
   -->
-  <project remote="Odissey1_lib"               revision="master"   name="Odissey1_lib"          path="Library/Odissey1_lib"/>
-  <project remote="TDust_UDB_lib"              revision="master"   name="TDust_UDB_lib"         path="Library/TDust_UDB_lib"/>
-  <project remote="USBAudio_lib"               revision="master"   name="USBAudio_lib"          path="Library/USBAudio_lib"/>
-  <project remote="tndComponent_lib"           revision="master"   name="tndComponent_lib"      path="Library/tndComponent_lib"/>
-  <project remote="tndSch_Macro_lib"           revision="master"   name="tndSch_MACRO_lib"      path="Library/tndSch_Macro_lib"/>
+  <project remote="Odissey1_lib"               revision="master"   name="Odissey1_lib"          path="tndP5LP_libs/Odissey1_lib"/>
+  <project remote="TDust_UDB_lib"              revision="master"   name="TDust_UDB_lib"         path="tndP5LP_libs/TDust_UDB_lib"/>
+  <project remote="USBAudio_lib"               revision="master"   name="USBAudio_lib"          path="tndP5LP_libs/USBAudio_lib"/>
+  <project remote="tndComponent_lib"           revision="master"   name="tndComponent_lib"      path="tndP5LP_libs/tndComponent_lib"/>
+  <project remote="tndSch_Macro_lib"           revision="master"   name="tndSch_MACRO_lib"      path="tndP5LP_libs/tndSch_Macro_lib"/>
   <!--
    -->
-  <project remote="TinyPrintf_prj"             revision="master"   name="TinyPrintf_prj"        path="Project/TinyPrintf"/>
-  <project remote="CharLCD_I2C_prj"            revision="master"   name="CharLCD_I2C_prj"       path="Project/CharLCD_I2C"/>
-  <project remote="AudioClkGen_prj"            revision="master"   name="AudioClkGen_prj"       path="Project/AudioClkGen"/>
-  <project remote="USB_Audio_CS4272_prj"       revision="master"   name="USB_Audio_CS4272_prj"  path="Project/USB_Audio_CS4272"/>
-  <project remote="Debug_prj"                  revision="master"   name="Debug_prj"             path="Project/Debug"/>
-  <project remote="USB_Audio_Async_prj"        revision="master"   name="USB_Audio_Async_prj"   path="Project/USB_Audio_Async"/>
-  <project remote="USB_Audio_prj"              revision="master"   name="USB_Audio_prj"         path="Project/USB_Audio"/>
+  <project remote="TinyPrintf_prj"             revision="master"   name="TinyPrintf_prj"        path="tndP5LP_prjs/TinyPrintf"/>
+  <project remote="CharLCD_I2C_prj"            revision="master"   name="CharLCD_I2C_prj"       path="tndP5LP_prjs/CharLCD_I2C"/>
+  <project remote="AudioClkGen_prj"            revision="master"   name="AudioClkGen_prj"       path="tndP5LP_prjs/AudioClkGen"/>
+  <project remote="USB_Audio_CS4272_prj"       revision="master"   name="USB_Audio_CS4272_prj"  path="tndP5LP_prjs/USB_Audio_CS4272"/>
+  <project remote="Debug_prj"                  revision="master"   name="Debug_prj"             path="tndP5LP_prjs/Debug"/>
+  <project remote="USB_Audio_Async_prj"        revision="master"   name="USB_Audio_Async_prj"   path="tndP5LP_prjs/USB_Audio_Async"/>
+  <project remote="USB_Audio_prj"              revision="master"   name="USB_Audio_prj"         path="tndP5LP_prjs/USB_Audio"/>
   <!--
   -->
 
   <!--     syntax example
-  <remote  fetch="git://github.com/noeldiviney"              name="tnd"/>
+  <remote  fetch="git://github.com/tndP5LP"              name="name_lib"/>
 
-  <project remote="freescale"   revision="dizzy"    name="fsl-community-bsp-base"  path="sources/base">
+  <project remote="name_lib"                   revision="master"    name="name_lib"             path="tndP5LP_libs/name_lib">
                   <copyfile dest="README" src="README"/>
                   <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
